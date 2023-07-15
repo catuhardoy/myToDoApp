@@ -23,7 +23,7 @@ export default async function EditTopic ({params}) {
   const {topic} = await getTopicById(id)
   const {title, description} = topic;
   
-  console.log("id:", id) 
+  // console.log("id:", id) 
 
   return <EditTopicForm id={id} title={title} description={description}/>;
     

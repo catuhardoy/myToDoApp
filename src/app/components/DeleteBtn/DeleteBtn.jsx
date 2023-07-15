@@ -23,7 +23,7 @@ export default function DeleteBtn ({id})  {
       }
       
     };
-    console.log("hi")
+    // console.log("hi")
   };
 
   return (
