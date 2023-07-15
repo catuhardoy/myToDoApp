@@ -2,7 +2,6 @@
 import styles from './TopicsList.module.css'
 import Link from 'next/link'
 import DeleteBtn from '../DeleteBtn/DeleteBtn'
-// import {HiPencilAlt} from 'react-icons/hi'
 import EditIcon from '@mui/icons-material/Edit';
 
 
@@ -33,17 +32,17 @@ export default async function TopicsList () {
 const {topics} = await getTopics() || { topics: [] };
 console.log(topics)
 
-
   return (
-    
+
     <div className={styles.container}>
+      
    {topics?.map((t) => (
     <div key={t._id}  className={styles.topics}>
         
       <div  className={styles.innerContainer}>
-        <h2>{t.title}</h2>
+        <h2 className={styles.title}>{t.title}</h2>
         <div>
-            <p>{t.description}</p>
+            <p className={styles.description}>{t.description}</p>
         </div>
         </div>
         <div className={styles.btn}>  

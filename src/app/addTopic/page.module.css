@@ -40,9 +40,9 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: pink;
+    background-color: rgba(212, 176, 210, 0.8);
     padding: 10px;
     border-radius: 2px;
-    border-color:pink;
+    border-color:rgba(212, 176, 210, 0.5);
     gap: 20px;
 }

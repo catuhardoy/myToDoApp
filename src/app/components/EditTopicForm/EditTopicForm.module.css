@@ -19,13 +19,12 @@
 .input {
     margin-top: -10px;
     gap : 10px;
-    padding: 20px;
+    padding: 30px;
     background-color: transparent;
     border: none;
     outline: none;
     color: #bbb;
     border: 1px solid;
-    
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
     font-style:oblique;
@@ -40,9 +39,9 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: pink;
-    padding: 10px;
+    background-color:rgba(212, 176, 210, 0.5);
+    padding: 15px;
     border-radius: 2px;
-    border-color:pink;
+    border-color:rgba(212, 176, 210, 0.5);
     gap: 20px;
 }

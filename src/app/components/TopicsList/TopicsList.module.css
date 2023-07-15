@@ -3,6 +3,8 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+  ;
+  
   
 }
 
@@ -12,9 +14,10 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 2px;
+    /* border: 2px solid black; */
+    border-radius: 3px;
     margin-bottom: 10px;
+    background-color: rgba(212, 176, 210, 0.4);;
     
 }
 
@@ -24,6 +27,13 @@
     align-items: flex-start;
    
   } 
+
+  .title{
+    font-size: 35px;
+  }
+  .description{
+    font-style: oblique;
+  }
     
   .btn{
     display: flex;
